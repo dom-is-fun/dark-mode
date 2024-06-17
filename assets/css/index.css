@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 54px;
+}
+
+.heading {
+    color: #0a6cf1;
+    font-weight: 800;
+}
+
+.btn-darkmode {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: #aaaaaa;
+    cursor: pointer;
+}
+
+.circle.active {
+    transform: translateX(200%);
+}
+
+.circle {
+    background-color: white;
+    height: 26px;
+    width: 26px;
+    border-radius: 500%;
+    position: absolute;
+    left: 1.5px;
+    transition: transform 0.3s;
+}
+
+.body-samsung {
+    height: 90%;
+    padding-top: 100px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    padding: 20px;
+    height: 40%;
+    border-radius: 10px;
+    background-color: #dadada;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.body-samsung h1 {
+    font-size: 50px;
+    color: #0a6cf1;
+}
+
+.box p {
+    font-size: 18px;
+}
+
+.btn {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn button.active{
+    background-color: #4daf54;
+}
+
+.btn button {
+    height: 90%;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #0a6cf1;
+    color: white;
+}
